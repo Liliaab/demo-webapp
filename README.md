@@ -6,25 +6,7 @@ A simple Python Flask web application containerized with Docker and designed for
 
 This application serves a lightweight Flask web app behind a Gunicorn WSGI server, packaged in a Docker container. It listens on port **8080** and returns a greeting message at the root endpoint.
 
-Developer
-   │
-   ▼
-GitHub Repository
-   │
-   ▼
-GitHub Actions (CI/CD)
-   │
-Build Docker Image
-   │
-   ▼
-Amazon ECR
-   │
-   ▼
-AWS App Runner
-   │
-   ▼
-Public Web Application
-
+Developer Push code  --> GitHub Repository --> triggers Github Actions (CI/CD) --> Build Docker Image --> push image to EDR registry --> AWS App Runner deploy the changes  --> web app
 
 ## CI/CD Pipeline
 
