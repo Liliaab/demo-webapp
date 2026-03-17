@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Lilia's Web App! This is a simple  application running in a Docker container hosted by aws app runer"
+    return "Hello Welcome to Lilia's Web App! This is a simple application running in a Docker container hosted by aws app runer"
 
 
 if __name__ == "__main__":
